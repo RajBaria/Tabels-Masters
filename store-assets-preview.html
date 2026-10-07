@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Master - Google Play Store Assets</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+            padding: 24px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1060px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #818CF8;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        h2 {
+            color: #38BDF8;
+            font-size: 20px;
+            margin-top: 32px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 8px;
+        }
+        .card {
+            background: #1E293B;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid #334155;
+        }
+        .spec {
+            font-size: 13px;
+            color: #94A3B8;
+            margin-bottom: 12px;
+        }
+        .asset-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0B0F19;
+            padding: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .btn-download {
+            display: inline-block;
+            background: #4F46E5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 12px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-download:hover {
+            background: #4338CA;
+        }
+        pre {
+            background: #0B0F19;
+            padding: 16px;
+            border-radius: 8px;
+            color: #E2E8F0;
+            overflow-x: auto;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Tables Master — Play Store Listing Assets</h1>
+        <p style="color: #94A3B8;">Ready-to-use descriptions, App Icon, and Feature Graphic for Google Play Console.</p>
+
+        <!-- 1. App Icon -->
+        <h2>1. App Icon (512 x 512 px)</h2>
+        <div class="card">
+            <div class="spec">Dimensions: 512x512 | Format: 32-bit PNG / SVG</div>
+            <div class="asset-wrapper">
+                <svg id="appIconSvg" width="256" height="256" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#4F46E5" />
+                            <stop offset="50%" stop-color="#3730A3" />
+                            <stop offset="100%" stop-color="#1E1B4B" />
+                        </linearGradient>
+                        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FDE047" />
+                            <stop offset="100%" stop-color="#F59E0B" />
+                        </linearGradient>
+                        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+                            <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+                        </filter>
+                    </defs>
+                    <!-- Background Squircle -->
+                    <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+                    
+                    <!-- Decorative subtle grid -->
+                    <circle cx="256" cy="256" r="180" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="4"/>
+                    
+                    <!-- Central Golden Multiplication Cross with Shadow -->
+                    <g filter="url(#shadow)">
+                        <path d="M190 150 L256 216 L322 150 C332 140 348 140 358 150 C368 160 368 176 358 186 L292 252 L358 318 C368 328 368 344 358 354 C348 364 332 364 322 354 L256 288 L190 354 C180 364 164 364 154 354 C144 344 144 328 154 318 L220 252 L154 186 C144 176 144 160 154 150 C164 140 180 140 190 150 Z" fill="url(#goldGrad)"/>
+                    </g>
+                    
+                    <!-- Sound Wave / Audio Speaker at bottom -->
+                    <path d="M216 385 L240 385 L268 410 L268 360 L240 385 L216 385 Z" fill="#FFFFFF"/>
+                    <path d="M285 372 C293 379 298 389 298 400 C298 411 293 421 285 428" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M305 358 C318 369 326 384 326 400 C326 416 318 431 305 442" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <p style="font-size: 13px; color: #94A3B8; text-align: center;">Click and save this image as PNG or right-click to export.</p>
+        </div>
+
+        <!-- 2. Feature Graphic -->
+        <h2>2. Feature Graphic (1024 x 500 px)</h2>
+        <div class="card">
+            <div class="spec">Dimensions: 1024x500 | Format: JPEG / PNG (No Alpha)</div>
+            <div class="asset-wrapper">
+                <svg id="featureGraphicSvg" width="100%" height="auto" viewBox="0 0 1024 500" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="featBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#1E1B4B" />
+                            <stop offset="40%" stop-color="#312E81" />
+                            <stop offset="100%" stop-color="#0F172A" />
+                        </linearGradient>
+                        <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#FDE047" />
+                            <stop offset="100%" stop-color="#F59E0B" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Background -->
+                    <rect width="1024" height="500" fill="url(#featBg)"/>
+                    
+                    <!-- Decorative mathematical background shapes -->
+                    <circle cx="150" cy="100" r="140" fill="#4F46E5" fill-opacity="0.12"/>
+                    <circle cx="900" cy="400" r="180" fill="#06B6D4" fill-opacity="0.10"/>
+                    <text x="80" y="440" font-family="sans-serif" font-size="80" font-weight="900" fill="#FFFFFF" fill-opacity="0.04">15²=225</text>
+                    <text x="700" y="120" font-family="sans-serif" font-size="90" font-weight="900" fill="#FFFFFF" fill-opacity="0.04">√625</text>
+                    
+                    <!-- App Title -->
+                    <text x="512" y="180" font-family="sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">TABLES MASTER</text>
+                    <text x="512" y="235" font-family="sans-serif" font-size="28" font-weight="800" fill="url(#textGrad)" text-anchor="middle">MATH &amp; AUDIO LEARNING ACADEMY</text>
+                    
+                    <!-- Key Modules Highlights -->
+                    <g transform="translate(162, 290)">
+                        <!-- Chip 1: Tables -->
+                        <rect x="0" y="0" width="150" height="54" rx="27" fill="#4338CA"/>
+                        <text x="75" y="34" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1 to 30 Tables</text>
+                        
+                        <!-- Chip 2: Squares & Roots -->
+                        <rect x="170" y="0" width="170" height="54" rx="27" fill="#047857"/>
+                        <text x="255" y="34" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Squares &amp; Roots</text>
+                        
+                        <!-- Chip 3: Cubes & Roots -->
+                        <rect x="360" y="0" width="160" height="54" rx="27" fill="#D97706"/>
+                        <text x="440" y="34" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Cubes &amp; Roots</text>
+                        
+                        <!-- Chip 4: 8 Voices -->
+                        <rect x="540" y="0" width="160" height="54" rx="27" fill="#7C3AED"/>
+                        <text x="620" y="34" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8 Audio Voices</text>
+                    </g>
+                    
+                    <!-- Bottom Tagline -->
+                    <text x="512" y="415" font-family="sans-serif" font-size="20" font-weight="600" fill="#94A3B8" text-anchor="middle">
+                        7 Languages • Rapid Palakha Quizzes • Offline &amp; Google Drive Sync
+                    </text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- 3. Short & Full Description Copy -->
+        <h2>3. Store Copy Paste Text</h2>
+        <div class="card">
+            <h3>Short Description (80 characters)</h3>
+            <pre>Learn Math Tables 1-30, Squares, Cubes, Roots &amp; timed audio quizzes in 8 voices!</pre>
+
+            <h3>Full Description Snippet</h3>
+            <pre>Unlock the power of mental math with Tables Master — the ultimate interactive, audio-powered learning companion for students, parents, and math enthusiasts!
+
+Master multiplication tables (1 to 30), squares (n²), cubes (n³), square roots (√n), and cube roots (∛n) with authentic voice recitation in English, Gujarati, Hindi, Marathi, Tamil, Telugu, and Bengali.
+
+Key Highlights:
+• Full Tables (1 to 30) with line-by-line pronunciation
+• Squares (1² to 30²) and Cubes (1³ to 30³)
+• Square Roots (√1 to √900) and Cube Roots (∛1 to ∛27000)
+• Timed Rapid-Fire Audio Quizzes (Easy, Med, Hard, Fast)
+• 8 Distinct Voice Styles (Female, Male, Child, Teacher, Speed)
+• Multi-Student Profiles with PIN Protection
+• Offline-First with Google Drive Cloud Backup
+• 100% Ad-Free and Safe for Kids!</pre>
+        </div>
+    </div>
+</body>
+</html>

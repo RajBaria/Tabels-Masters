@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tables Master</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_quiz">Quiz</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_analytics">Analytics</string>
+    <string name="tab_profiles">Profiles</string>
+    <string name="tab_developer">Developer</string>
+</resources>

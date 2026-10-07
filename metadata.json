@@ -1,0 +1,6 @@
+{
+  "name": "Tables Master",
+  "description": "Multilingual Math Tables (1 to 30) and Palakha Audio Master with male/female voice selection, sliders, regional audio, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
