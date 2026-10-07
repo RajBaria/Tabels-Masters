@@ -247,7 +247,7 @@ fun DeveloperScreen(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = "Tables Master v2.1",
+                        text = "Tables Master v5.0",
                         fontWeight = FontWeight.Bold,
                         style = MaterialTheme.typography.bodyMedium
                     )
